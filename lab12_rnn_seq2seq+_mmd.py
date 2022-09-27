@@ -423,3 +423,5 @@ def translate(sentence, encoder, decoder, inp_lang, targ_lang, max_length_inp, m
 # restoring the latest checkpoint in checkpoint_dir
 checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 translate('뭐라도 배워볼까.', encoder, decoder, inp_lang, targ_lang, max_length_inp, max_length_targ)
+
+# update for github

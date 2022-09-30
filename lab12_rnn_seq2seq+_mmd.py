@@ -425,9 +425,3 @@ checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 translate('뭐라도 배워볼까.', encoder, decoder, inp_lang, targ_lang, max_length_inp, max_length_targ)
 
 # update for github
-# update for github v2
-# update for github v3
-# update for github v6
-# update for github v7
-# update for github v8
-# update for github v9
